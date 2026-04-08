@@ -26,3 +26,12 @@ Data is ingested from multiple domains (Finance, Sales, Operations) and standard
 
 ## Why This Matters
 This model eliminates siloed reporting and creates a foundation for scalable analytics and agentic AI across the enterprise.
+## Example Analysis
+
+The project includes sample logic to evaluate customer payment behavior, including:
+
+- Early vs late payments  
+- Discount utilization  
+- Payment timing trends  
+
+See `/analysis/payment_behavior.sql` for implementation.
