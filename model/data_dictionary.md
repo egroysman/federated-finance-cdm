@@ -15,4 +15,5 @@
 ### Dim_Customer
 - CustomerID: Master customer identifier  
 - CreditAccountID: Links invoices to credit exposure  
-- Region: Geographic segmentation  
+- Region: Geographic segmentation
+- 
