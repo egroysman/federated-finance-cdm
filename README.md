@@ -1,4 +1,9 @@
 # Federated Finance Data Platform (CDM + AI-Ready Architecture)
+## What This Solves
+
+Finance teams rely on due dates, not actual behavior.
+
+This model predicts when cash will actually be received based on how customers pay — not when they are supposed to.
 
 ## Overview
 Most enterprise data is fragmented across ERP, CRM, and operational systems, making it difficult to generate consistent insights.
