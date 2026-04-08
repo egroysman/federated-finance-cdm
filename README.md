@@ -46,3 +46,4 @@ This project includes sample invoice and payment datasets to demonstrate how the
 The model includes logic to estimate expected payment dates based on historical customer behavior, enabling projected cash inflow visibility.
 
 See `/analysis/cash_in_projection.sql` for implementation.
+This project shifts finance from due-date assumptions to behavior-based cash forecasting.
