@@ -35,3 +35,9 @@ The project includes sample logic to evaluate customer payment behavior, includi
 - Payment timing trends  
 
 See `/analysis/payment_behavior.sql` for implementation.
+## Sample Data
+
+This project includes sample invoice and payment datasets to demonstrate how the model supports payment behavior analysis.
+
+- `/data/invoices.csv`
+- `/data/payments.csv`
