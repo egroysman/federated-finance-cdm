@@ -52,3 +52,13 @@ The model includes logic to estimate expected payment dates based on historical 
 
 See `/analysis/cash_in_projection.sql` for implementation.
 This project shifts finance from due-date assumptions to behavior-based cash forecasting.
+## How to Use This Project
+
+1. Review the data model in `/model/schema.sql`  
+2. Explore sample data in `/data`  
+3. Run analysis queries in `/analysis`:
+   - `payment_behavior.sql`
+   - `cash_in_projection.sql`
+   - `customer_cash_profile.sql`
+
+This demonstrates how raw invoice and payment data can be transformed into behavior-based cash flow insights.
