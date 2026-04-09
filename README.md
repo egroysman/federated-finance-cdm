@@ -62,3 +62,17 @@ This project shifts finance from due-date assumptions to behavior-based cash for
    - `customer_cash_profile.sql`
 
 This demonstrates how raw invoice and payment data can be transformed into behavior-based cash flow insights.
+## Roadmap
+
+### Current Scope
+Behavior-based cash inflow forecasting using AR invoice and payment history.
+
+### Next Phase
+Extend the model to include:
+- AP for projected cash outflows
+- Payroll for recurring operating cash needs
+- GL categories for historical trend alignment
+- Scenario inputs for macro and business events
+
+### Future State
+A full cash flow intelligence layer that predicts net cash position based on both inflow and outflow behavior.
