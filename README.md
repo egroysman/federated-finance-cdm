@@ -84,3 +84,36 @@ The model extends beyond receivables to include projected cash outflows, enablin
 - Cash Out: schedule-based (AP)
 
 This reflects the reality that inflows are uncertain, while outflows are typically controlled.
+## Analytics Layer
+
+This folder contains the analytical logic built on top of the cash flow model.
+
+### Included Analyses
+
+- `payment_behavior.sql`  
+  Evaluates how customers actually pay relative to due dates.
+
+- `cash_in_projection.sql`  
+  Estimates expected cash inflows based on historical payment behavior.
+
+- `cash_out_projection.sql`  
+  Projects expected AP cash outflows based on scheduled due dates.
+
+- `net_cash_flow.sql`  
+  Combines inflows and outflows into a projected net cash view.
+
+- `cash_summary.sql`  
+  Provides an executive summary of projected cash in, cash out, and net cash.
+
+- `customer_risk_analysis.sql`  
+  Segments customers by payment behavior and risk.
+
+- `outflow_category_analysis.sql`  
+  Breaks down projected cash outflows by category.
+
+- `net_cash_trend.sql`  
+  Shows projected cash movement over time.
+
+## Purpose
+
+The goal of this layer is to translate raw transaction and projection logic into business-facing insight for planning, forecasting, and risk management.
