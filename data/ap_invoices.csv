@@ -1,0 +1,4 @@
+VendorID,InvoiceID,InvoiceDate,DueDate,InvoiceAmount,Category
+2001,1,2025-01-01,2025-01-30,5000,COGS
+2002,2,2025-01-05,2025-02-05,2000,Marketing
+2003,3,2025-01-10,2025-02-10,3000,Operations
