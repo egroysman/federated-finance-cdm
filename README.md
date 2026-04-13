@@ -76,3 +76,11 @@ Extend the model to include:
 
 ### Future State
 A full cash flow intelligence layer that predicts net cash position based on both inflow and outflow behavior.
+## Cash Flow Expansion
+
+The model extends beyond receivables to include projected cash outflows, enabling a full view of net cash position.
+
+- Cash In: behavior-based (AR)
+- Cash Out: schedule-based (AP)
+
+This reflects the reality that inflows are uncertain, while outflows are typically controlled.
